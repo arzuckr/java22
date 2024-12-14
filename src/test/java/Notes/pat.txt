@@ -1,0 +1,7 @@
+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 // Personal access token
+
+https://github.com/arzuckr/java22.git //Remote  repository url
+
+https://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@github.com/arzuckr/java22.git
+
+git remote add origin https://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@github.com/arzuckr/java22.git

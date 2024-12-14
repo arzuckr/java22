@@ -1,0 +1,154 @@
+////# Char Data Type
+
+-in Java a char is a short for "character.
+-This primitive data type is used the store single character
+-unlike other data type char can only hold single character
+-Size of this data type is char 16-bit.
+''' java
+
+char letter = 'T';
+char symbol='5';
+char symbol='&';
+
+## Is char still used?
+**Less common today**:Nowadays string(text type) are more popular because it can hold multiple character,
+ // and more versatile.
+
+ **Why the 'char' data type created?
+ When java first created 'memory resources very limited',and it was efficient
+
+ ##How is char related to ASCII and unicode?
+ 1-ASCII(American Standard Code For Information Interchange)
+ *ASCII is a 7 -bit character encoding standard that represent 128 characters ,
+ including letters.Digit and symbols.
+
+
+ 2.Unicode
+ *Java char is based on Unicode ,which is more comprehensive version of ASCII
+ *Unlike ASCII,which is limited 128 characters,Unicode
+ supports 143000 characters,including symbol ,emojis...
+ ** NOTE**
+ Char data type can be assigned with numerical value or can be assigned with a value within
+ single quotation.
+ When char data type is assigned with a numerical value,it finds the matching numerical value from Unicode or
+ ASCII  table and then assigns itself with that character.
+
+  ''java
+  char ch=122;
+  System.out.println(ch); // This will print letter "z'
+
+
+
+   #Declaration,initialization,Assignment,Reassignment,and Compound Assignment Operators.
+
+ 1- Declaration 
+  *Declaration is a data type to variable.
+''' java 
+public class test{
+public static void main(String)[]args{
+
+int var:
+double number ;
+char c1;
+long l2;
+// All of the above is an example to declaration in java programming.
+//These ara called declaring variable.
+ 2- Initialization initializing is assigning value to variable.
+**
+''' java
+public class test{
+public static void main(String)[]args{
+int var:
+double number ;
+char c1;
+long l2;
+//We are going to initialize the declared variable above.
+
+var =10;
+number=17.9;
+c1='!';
+
+3-Assignment,Reassignment
+-The asssignment operator '=' is used to store value  a value in a variable.It asigns
+-the values on the right side the operator to the variable on left.
+'''java
+
+int number=6;// variable number is assigned value 6.
+int num1;
+num1=8;// result is 8
+
+''' java
+public class test{
+public static void main(String)[]args{
+
+double dl=7;
+System.out.printLn(d1);//7
+d1=19.8;
+result is 19.8
+
+d1=d1+d1+.4;
+result is 40.0
+
+// The output will be 40.0
+
+
+d1='y';
+
+System.out.printLn(d1)
+it doesn't work 
+
+d1='y';
+result is 121.0
+
+
+        int num1=11;
+        num1=num1+4.0;
+        System.out.println(num1)
+
+//we cannot the change data typeof a variable   when reassigning.
+
+    4- Compound Reassignment Operators
+    +=,-=,*=,/=,%=
+
+   -Compound Reassignment Operators are shorter way of writing expressions where a variable
+is modified and then assigned with a new value.
+
+1-'+='
+-This operator will add and then reassign.
+-'x+=5' is 'x=x+5'
+
+2- '-='
+'var -=10' is 'var=var-10'
+
+3-'*='
+-This operator will multiply and  then reassign.
+-'x*=5' is 'x=x*5'
+
+4- '/='
+'var /=10' is 'var=var/10'
+
+5-'%='
+'var%=3' is 'var=var%3"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
